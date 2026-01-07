@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\*\shell\FileNuke]
+[-HKEY_CLASSES_ROOT\Directory\shell\FileNuke]
+[-HKEY_CLASSES_ROOT\Drive\shell\FileNuke]

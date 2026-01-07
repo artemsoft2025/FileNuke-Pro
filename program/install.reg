@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\FileNuke]
+@="Securely Erase with FILE NUKE"
+"Icon"="\"C:\\My\\Soft\\my_razrab\\FILE NUKE PRO\\dist\\filenuke.exe\",0"
+
+[HKEY_CLASSES_ROOT\*\shell\FileNuke\command]
+@="\"C:\\My\\Soft\\my_razrab\\FILE NUKE PRO\\dist\\filenuke.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\FileNuke]
+@="Securely Erase Folder with FILE NUKE"
+"Icon"="\"C:\\My\\Soft\\my_razrab\\FILE NUKE PRO\\dist\\filenuke.exe\",0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\FileNuke\command]
+@="\"C:\\My\\Soft\\my_razrab\\FILE NUKE PRO\\dist\\filenuke.exe\" \"%1\" -r"
